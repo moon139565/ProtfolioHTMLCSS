@@ -63,3 +63,63 @@ body {
   }
 }
 /* header are css-code end */
+
+/* hero-area css-code start */
+.hero-area {
+  width: 100%;
+  padding: 50px 0;
+}
+.hero-container {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-details {
+  h4 {
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    span {
+      background-color: #00bd95;
+      padding: 8px 15px;
+      border-radius: 5px;
+    }
+  }
+
+  h1 {
+    font-size: 80px;
+    span {
+      color: #00bd95;
+    }
+  }
+
+  p {
+    margin: 20px 0;
+    line-height: 28px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #171c22;
+    border: 1px solid #00bd95;
+    color: white;
+    border-radius: 0 10px 0 10px;
+  }
+  button:hover {
+    background-color: #00bd95;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+}
+
+.hero-img {
+  img {
+    height: 500px;
+  }
+}
+
+/* hero-area css-code end */
