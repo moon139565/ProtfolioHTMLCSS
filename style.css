@@ -1,0 +1,65 @@
+/* google font link add  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* add defult css-code add  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  background-color: #171c22;
+}
+/* add defult css-code end  */
+
+/* header are css-code add */
+.header-area {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+.nav-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+}
+.logo-area {
+  font-size: 30px;
+  font-weight: 700;
+  img {
+    height: 60px;
+    border-radius: 10%;
+  }
+}
+.nav-buttons {
+  font-size: 22px;
+  display: flex;
+  gap: 50px;
+  a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+  }
+  a:hover {
+    color: #00bd95;
+    transition: 0.5s ease-in-out;
+  }
+}
+.hire-me {
+  a {
+    border: 1px solid #ffffffe8;
+    padding: 10px 15px;
+    border-radius: 10px;
+  }
+  a:hover {
+    border: 1px solid #00bd95;
+    color: #00bd95;
+    transition: 0.5s ease-in-out;
+  }
+}
+/* header are css-code end */
