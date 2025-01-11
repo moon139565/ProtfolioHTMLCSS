@@ -333,3 +333,11 @@ body {
 }
 
 /* contact-area css-code end */
+
+/* contact-area css-code end */
+footer {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #20272f;
+  color: white;
+}
